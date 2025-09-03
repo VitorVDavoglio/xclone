@@ -1,9 +1,14 @@
 import React from 'react'
+import Post from './Post'
 
 const Feed = () => {
     return (
-        <div>
-            Feed
+        <div className=''>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
         </div>
     )
 }
