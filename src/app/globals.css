@@ -1,5 +1,24 @@
 @import "tailwindcss";
 
+@theme{
+  --breakpoint-xsm: 500px;
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 690px;
+  --breakpoint-lg: 988px;
+  --breakpoint-xl: 1078px;
+  --breakpoint-xxl: 1265px;
+  
+  --color-logoutNavbar: #53C28B;
+  --color-textGray: #71767b;
+  --color-textGrayLight: #E7E9EA;
+  --color-borderGray: #2F3336;
+  --color-inputGray: #202327;
+  --color-itemLeftBar: #181818;
+  --color-blueDesign: #1D9BF0;
+  --color-grennDesign: #00BA7C;
+  --color-pinkDesign: #F91880;
+}
+
 body {
   background: black;
   color: white;
